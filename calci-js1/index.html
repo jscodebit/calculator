@@ -1,0 +1,46 @@
+<html>
+	<head><title>Calculator Page</title>
+		<link rel="stylesheet" type="text/css" href="./style.css">
+	</head>
+	<body>
+		<div class="container">
+			<form>
+				<div class="rowOne">
+	<!-- 				<button id="" class="">C</button>
+					<span></span>
+	 -->
+					<input type="text" id="display" disabled></input>
+				</div>
+				<div class="rowOne">	
+					<input type="button" value="9" id="keys" onclick="addtoscreen('9')">
+					<input type="button" value="8" id="keys" onclick="addtoscreen('8')">
+					<input type="button" value="7" id="keys" onclick="addtoscreen('7')">
+					<input type="button" value="/" id="keys" onclick="addtoscreen('/')">
+				</div>
+				<div class="rowOne">
+					<input type="button" value="6" id="keys" onclick="addtoscreen('6')">
+					<input type="button" value="5" id="keys" onclick="addtoscreen('5')">
+					<input type="button" value="4" id="keys" onclick="addtoscreen('4')">
+					<input type="button" value="*" id="keys" onclick="addtoscreen('*')">
+				</div>
+				<div class="rowOne">
+					<input type="button" value="3" id="keys" onclick="addtoscreen('3')">
+					<input type="button" value="2" id="keys" onclick="addtoscreen('2')">
+					<input type="button" value="1" id="keys" onclick="addtoscreen('1')">
+					<input type="button" value="-" id="keys" onclick="addtoscreen('-')">
+				</div>	
+				<div class="rowOne">
+					<input type="button" value="0" id="keys" onclick="addtoscreen('0')">
+					<input type="button" value="." id="keys" onclick="addtoscreen('.')">
+					<input type="button" value="=" id="keys" onclick="answer()">
+					<input type="button" value="+" id="keys" onclick="addtoscreen('+')">
+				</div>	
+				<div class="rowOne">
+					<input type="button" value="C" id="keys" onclick="addtoscreen('c')">
+					<input type="button" value="DLT" id="keys" onclick="backspace()">
+				</div>
+			</form>
+		</div>
+		<script type="text/javascript" src="./script.js"></script>
+	</body>
+</html>			
